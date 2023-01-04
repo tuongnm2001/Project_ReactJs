@@ -21,14 +21,16 @@ class About extends Component {
                     </div>
 
                     <div className='content-right'>
-                        <div className='title-address'>Trụ sở tại Hà Nội</div>
-                        <div className='content-address'>28 Thành Thái, Dịch Vọng, Cầu Giấy, Hà Nội</div>
+                        <div className='content-right-address'>
+                            <div className='title-address'>Trụ sở tại Hà Nội</div>
+                            <div className='content-address'>28 Thành Thái, Dịch Vọng, Cầu Giấy, Hà Nội</div>
 
-                        <div className='title-address'>Văn phòng tại TP Hồ Chí Minh</div>
-                        <div className='content-address'>Số 01, Hồ Bá Kiện, Phường 15, Quận 10</div>
+                            <div className='title-address'>Văn phòng tại TP Hồ Chí Minh</div>
+                            <div className='content-address'>Số 01, Hồ Bá Kiện, Phường 15, Quận 10</div>
 
-                        <div className='title-address'> Hỗ trợ khách hàng</div>
-                        <div className='content-address'>support@bookingcare.vn (7h - 18h)</div>
+                            <div className='title-address'> Hỗ trợ khách hàng</div>
+                            <div className='content-address'>support@bookingcare.vn (7h - 18h)</div>
+                        </div>
                     </div>
                 </div>
             </div>
