@@ -112,5 +112,16 @@
             "specialty": "Chọn chuyên khoa",
             "select-clinic": "Chọn phòng khám"
         }
+    },
+    "specialty": {
+        "title-speciality": "QUẢN LÍ CHUYÊN KHOA",
+        "manage-specialty": "Tên chuyên khoa",
+        "img-speciality": "Ảnh chuyên khoa"
+    },
+    "clinic": {
+        "manage-clinic": "QUẢN LÍ PHÒNG KHÁM",
+        "name-clinic": "Tên phòng khám",
+        "img-clinic": "Ảnh phòng khám",
+        "address-clinic": "Địa chỉ phòng khám "
     }
 }

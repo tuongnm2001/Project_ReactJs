@@ -15,7 +15,7 @@ import 'react-markdown-editor-lite/lib/index.css';
 // MdEditor.use(YOUR_PLUGINS_HERE);
 
 // Initialize a markdown parser
-const mdParser = new MarkdownIt(/* Markdown-it options */);
+const mdParser = new MarkdownIt();
 
 // Finish!
 function handleEditorChange({ html, text }) {
@@ -89,7 +89,10 @@ class TableManageUser extends Component {
                     </tbody>
                 </table >
 
-                <MdEditor style={{ height: '500px' }} renderHTML={text => mdParser.render(text)} onChange={handleEditorChange} />
+                {/* <MdEditor
+                    style={{ height: '500px' }}
+                    renderHTML={text => mdParser.render(text)}
+                    onChange={handleEditorChange} /> */}
 
             </>
         );

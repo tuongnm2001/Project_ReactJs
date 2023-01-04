@@ -112,5 +112,16 @@
             "specialty": "Specialty",
             "select-clinic": "Clinic"
         }
+    },
+    "specialty": {
+        "title-speciality": "MANAGE SPECIALTY",
+        "manage-specialty": "Specialty Name",
+        "img-speciality": "Image"
+    },
+    "clinic": {
+        "manage-clinic": "MANAGE CLINIC",
+        "name-clinic": "Clinic name",
+        "img-clinic": "Image",
+        "address-clinic": "Clinic Address"
     }
 }

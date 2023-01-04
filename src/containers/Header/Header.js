@@ -48,7 +48,7 @@ class Header extends Component {
             <div className="header-container">
                 {/* thanh navigator */}
                 <div className="header-tabs-container">
-                    <Navigator menus={this.state.menuApp} />
+                    <Navigator menus={adminMenu} />
                 </div>
 
                 <div className='languages'>
