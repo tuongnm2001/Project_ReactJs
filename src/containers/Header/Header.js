@@ -43,12 +43,12 @@ class Header extends Component {
 
     render() {
         const { processLogout, language, userInfo } = this.props;
-        console.log('check user info : ', userInfo)
+
         return (
             <div className="header-container">
                 {/* thanh navigator */}
                 <div className="header-tabs-container">
-                    <Navigator menus={adminMenu} />
+                    <Navigator menus={this.state.menuApp} />
                 </div>
 
                 <div className='languages'>
@@ -74,7 +74,6 @@ const mapStateToProps = state => {
         isLoggedIn: state.user.isLoggedIn,
         language: state.app.language,
         userInfo: state.user.userInfo,
-
     };
 };
 
