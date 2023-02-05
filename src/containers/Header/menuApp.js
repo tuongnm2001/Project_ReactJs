@@ -18,9 +18,9 @@ export const adminMenu = [
                 // ]
             },
 
-            {
-                name: 'menu.admin.manage-admin', link: '/system/user-admin'
-            },
+            // {
+            //     name: 'menu.admin.manage-admin', link: '/system/user-admin'
+            // },
 
             { // Quản lí kế hoạch khám bệnh bác sĩ
 
@@ -51,15 +51,15 @@ export const adminMenu = [
         ]
     },
 
-    { //Quản lí cẩm nang 
-        name: 'menu.admin.handbook',
-        menus: [
-            {
-                name: 'menu.admin.manage-handbook', link: '/system/manage-handbook'
-            },
+    // { //Quản lí cẩm nang 
+    //     name: 'menu.admin.handbook',
+    //     menus: [
+    //         {
+    //             name: 'menu.admin.manage-handbook', link: '/system/manage-handbook'
+    //         },
 
-        ]
-    },
+    //     ]
+    // },
 ];
 
 export const doctorMenu = [
